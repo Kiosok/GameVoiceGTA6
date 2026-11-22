@@ -6,6 +6,11 @@
 !requirements-dev.txt
 !docs/
 !docs/*.md
+!docs/assets/
+!docs/assets/*.svg
+!.github/
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/*.md
 !tools/
 !tools/*.py
 !outputs/

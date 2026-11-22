@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="850" viewBox="0 0 1180 850" role="img" aria-labelledby="title desc">
+  <title id="title">Как подключить GameVoiceGTA6</title>
+  <desc id="desc">Приставка по HDMI подключается ко входу карты захвата. HDMI OUT карты идёт в телевизор, USB — в компьютер Windows. GameVoice распознаёт русские субтитры локально, отправляет текст в ElevenLabs через интернет, получает озвучку и воспроизводит её на колонках или наушниках ПК.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1 1 8 5 1 9" fill="none" stroke="#3b6487" stroke-width="2"/></marker>
+    <marker id="green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 8 5 1 9" fill="none" stroke="#16826a" stroke-width="2"/></marker>
+    <style>
+      text{font-family:'Segoe UI',Arial,sans-serif;fill:#18344d}
+      .title{font-size:34px;font-weight:700}.name{font-size:26px;font-weight:700}
+      .body{font-size:22px}.small{font-size:19px;fill:#48647b}.label{font-size:20px;font-weight:600}
+      .wire{fill:none;stroke:#3b6487;stroke-width:3;marker-end:url(#arrow)}
+      .network{fill:none;stroke:#16826a;stroke-width:3;stroke-dasharray:7 6;marker-end:url(#green)}
+    </style>
+  </defs>
+  <rect width="1180" height="850" rx="24" fill="#f3f7fb"/>
+  <text x="40" y="53" class="title">Приставка → карта захвата → русская озвучка</text>
+  <text x="40" y="91" class="body">На телевизоре играете. На компьютере GameVoice читает субтитры и озвучивает их.</text>
+  <rect x="40" y="150" width="255" height="150" rx="18" fill="#fff" stroke="#c8d7e5" stroke-width="2"/>
+  <text x="64" y="193" class="name">1. Приставка</text>
+  <text x="64" y="233" class="body">Например, PS5</text>
+  <text x="64" y="270" class="small">Субтитры RU + имена</text>
+  <path d="M295 226H435" class="wire"/>
+  <text x="318" y="199" class="label">HDMI</text>
+  <text x="318" y="260" class="small">→ HDMI IN</text>
+  <rect x="445" y="150" width="290" height="150" rx="18" fill="#e6efff" stroke="#83a6dd" stroke-width="2"/>
+  <text x="470" y="193" class="name">2. Карта захвата</text>
+  <text x="470" y="233" class="body">Например, EZCAP 371L</text>
+  <text x="470" y="270" class="small">Модель с HDMI OUT</text>
+  <path d="M735 226H885" class="wire"/>
+  <text x="754" y="199" class="label">HDMI OUT</text>
+  <text x="763" y="260" class="small">→ HDMI IN</text>
+  <rect x="895" y="150" width="245" height="150" rx="18" fill="#fff" stroke="#c8d7e5" stroke-width="2"/>
+  <text x="919" y="193" class="name">Телевизор</text>
+  <text x="919" y="233" class="body">или монитор</text>
+  <text x="919" y="270" class="small">Здесь вы играете</text>
+  <path d="M590 300V385" class="wire"/>
+  <text x="615" y="340" class="label">USB → ПК</text>
+  <text x="615" y="371" class="small">Изображение игры</text>
+  <rect x="40" y="409" width="255" height="120" rx="16" fill="#fff" stroke="#c8d7e5"/>
+  <text x="62" y="444" class="label">Субтитры в игре:</text>
+  <text x="62" y="478" class="body">Джейсон: Привет!</text>
+  <text x="62" y="510" class="small">Имя выбирает голос</text>
+  <path d="M295 470H350" class="wire"/>
+  <rect x="360" y="395" width="460" height="165" rx="18" fill="#fff" stroke="#83a6dd" stroke-width="2"/>
+  <text x="388" y="438" class="name">3. Компьютер Windows</text>
+  <text x="388" y="477" class="body">GameVoice → читает текст</text>
+  <text x="388" y="515" class="body">и выбирает голос персонажа</text>
+  <text x="388" y="545" class="small">Распознавание текста работает на ПК</text>
+  <rect x="925" y="395" width="215" height="165" rx="18" fill="#e4f5ef" stroke="#73b6a6" stroke-width="2"/>
+  <text x="946" y="438" class="name">ElevenLabs</text>
+  <text x="946" y="477" class="body">Синтез речи</text>
+  <text x="946" y="515" class="small">Интернет + API-ключ</text>
+  <text x="946" y="545" class="small">Расходуются кредиты</text>
+  <path d="M820 451H916" class="network"/>
+  <text x="836" y="431" class="small">Текст</text>
+  <path d="M925 516H830" class="network"/>
+  <text x="838" y="497" class="small">Голос</text>
+  <path d="M590 560V620" class="wire"/>
+  <text x="615" y="597" class="label">Звук с ПК</text>
+  <rect x="360" y="630" width="460" height="120" rx="18" fill="#e4f5ef" stroke="#73b6a6" stroke-width="2"/>
+  <text x="388" y="673" class="name">4. Колонки или наушники ПК</text>
+  <text x="388" y="716" class="body">Слышите: «Привет!» — без имени</text>
+  <text x="40" y="796" class="body">Нужна карта захвата: обычный HDMI-разъём ноутбука её не заменяет.</text>
+  <text x="40" y="829" class="small">Схема для карты с HDMI OUT. Озвучка с ПК не передаётся обратно на телевизор по HDMI.</text>
+</svg>
